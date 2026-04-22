@@ -1,27 +1,50 @@
-# SmartLens 
+# SmartLens 🔍
 
-SmartLens is an AI-powered image analysis system that combines multiple computer vision techniques into a single application.
+SmartLens is an AI-powered image analysis system that integrates multiple computer vision techniques into a single application. It allows users to upload images and automatically extract meaningful information such as detected objects, text, and barcodes.
 
+---
 
-## Features
+## 🚀 Features
 
-- 🧠 Object Detection using YOLOv8
-- 🔤 Text Extraction (OCR)
-- 📦 Barcode & QR Code Scanning
-- 🌐 Language Translation
+* 🧠 Object Detection using YOLOv8
+* 🔤 Text Extraction using OCR
+* 📦 Barcode & QR Code Scanning
+* 🌐 Language Translation
 
+---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- Python
-- Flask
-- OpenCV
-- YOLOv8 (Ultralytics)
-- Tesseract OCR
+* Python
+* Flask
+* OpenCV
+* YOLOv8 (Ultralytics)
+* Tesseract OCR
 
+---
 
-## Project Structure
+## ⚙️ How It Works
 
+1. User uploads an image through the web interface
+2. Image is preprocessed for better accuracy
+3. System processes image using:
+
+   * Object Detection (YOLOv8)
+   * OCR (Text Recognition)
+   * Barcode/QR Scanner
+4. Results are displayed on the screen
+
+---
+
+## 🧠 System Architecture
+
+User Input → Flask Backend → AI Modules (YOLO + OCR + Barcode) → Output Display
+
+---
+
+## 📂 Project Structure
+
+```
 SmartLens/
 │
 ├── app.py
@@ -41,34 +64,76 @@ SmartLens/
 │
 ├── README.md
 ├── .gitignore
+```
 
+---
 
-## Installation
+## ⚙️ Installation
 
 1. Clone the repository:
-   git clone https://github.com/Tanya-869/SmartLens.git
+
+```
+git clone https://github.com/Tanya-869/SmartLens.git
+```
 
 2. Navigate to project folder:
-   cd SmartLens
+
+```
+cd SmartLens
+```
 
 3. Install dependencies:
-   pip install -r requirements.txt
+
+```
+pip install -r requirements.txt
+```
 
 4. Run the application:
-   python app.py
 
+```
+python app.py
+```
 
-## Note
+---
 
-- YOLO model weights (.pt files) are not included due to size limitations.
-- You can download them from:
-  https://github.com/ultralytics/ultralytics
+## 📸 Screenshots
 
+## 🏠 Homepage
 
-## Screenshots
+![Homepage](Homepage1.png)
+![Homepage](Homepage2.png)
 
-(Add your screenshots here)
+---
 
-## Author
+## 🔍 Object Detection
+
+![Detection](CoffeeCup_Image_Detection.png)
+![Detection](Rose_Image_Detection.png)
+![Detection](Sunflower_Image_Detection.png)
+
+---
+
+## 🔤 OCR
+
+![OCR Input](OCR_Input.png)
+![OCR Output](OCR_Output.png)
+
+---
+
+## 📦 Barcode Scanner
+
+![Barcode Input](Barcode_Input.png)
+![Barcode Output](Barcode_Output.png)
+
+---
+
+## 📌 Note
+
+* YOLO model weights (.pt files) are not included due to size limitations
+* Download models from: https://github.com/ultralytics/ultralytics
+
+---
+
+## 👩‍💻 Author
 
 Tanya
