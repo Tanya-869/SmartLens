@@ -130,4 +130,5 @@ python app.py
 
 ## 👩‍💻 Author
 
-Tanya
+Tanya Shukla
+Vijendra Pratap Singh
