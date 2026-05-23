@@ -127,8 +127,3 @@ python app.py
 * YOLO model weights (.pt files) are not included due to size limitations
 * Download models from: https://github.com/ultralytics/ultralytics
 
-
-## 👩‍💻 Author
-
-Tanya Shukla
-Vijendra Pratap Singh
